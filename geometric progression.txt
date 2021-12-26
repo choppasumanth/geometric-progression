@@ -1,0 +1,11 @@
+var l=7;
+l=parseInt(l);
+var m=14;
+m=parseInt(m);
+var n=7;
+n=parseInt(n);
+var presentterm;
+for(var i=0;i<n;i++){
+    presentterm=l*Math.pow(m,i);
+    console.log(presentterm+" ");
+}
